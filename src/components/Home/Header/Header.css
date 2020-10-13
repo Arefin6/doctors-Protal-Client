@@ -19,6 +19,9 @@
 }
 .btn-appointment{
     color:#fff;
-    padding: 3%; 
+    padding: 2%; 
     background-image: linear-gradient(to bottom right,#62f0e9, #0fb39d);
-}   
+} 
+.primary-color{
+    color: #1CC7C1;
+}  
