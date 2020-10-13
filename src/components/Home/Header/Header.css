@@ -1,0 +1,24 @@
+.header-container {
+    height:700px;
+    position:relative;
+    background-image: url('../../../images/chairbg.png');
+    background-size: cover;
+    background-position: center;
+   
+}
+
+.header-container::after {
+    height:600px;
+    content:' ';
+    position: absolute;
+    top: 0;
+    width: 35%;
+    right: 0;
+    background-color: #3a4256;
+    z-index: -33;
+}
+.btn-appointment{
+    color:#fff;
+    padding: 3%; 
+    background-image: linear-gradient(to bottom right,#62f0e9, #0fb39d);
+}   
