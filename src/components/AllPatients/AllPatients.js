@@ -7,7 +7,7 @@ import Sidebar from '../DashBoard/Sidebar/Sidebar';
 const AllPatients = () => {
     const [appointments,setAppointments] = useState([]);
     useEffect(()=>{
-        fetch('http://localhost:5000/allPatients')
+        fetch('https://peaceful-bayou-64939.herokuapp.com/allPatients')
         .then(res => res.json() )
         .then(data => setAppointments(data))
     },[]);
