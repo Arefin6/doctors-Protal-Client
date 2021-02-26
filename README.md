@@ -7,7 +7,7 @@ A full-stack app where you can pick the date and time and fix an appointment wit
 <h2> Features:</h2>
 
 <ul>
-   <li>Fix an appointment with your doctor</li>
+    <li>Fix an appointment with your doctor</li>
     <li>Store patient information</li>
     <li>Add prescriptions for each patient</li>
     <li>Review appointments</li>
